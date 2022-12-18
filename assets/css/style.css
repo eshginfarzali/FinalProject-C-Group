@@ -187,7 +187,12 @@ background-color: #fff;
     color: black;
 }
 
-
+.gift-box{
+    overflow: hidden;
+}
+.gochoco{
+    overflow: hidden;
+}
 
 .gift-gocho{
 display: flex;
@@ -196,6 +201,8 @@ box-sizing: border-box;
 margin-top:30px;
 width: 100%;
 overflow: hidden;
+overflow-clip-margin: content-box;
+
 }
 
 
@@ -316,7 +323,7 @@ padding: 10px;
     position: absolute;
     bottom: -15px;
     text-align: center;
-    font-size: 25px;
+    font-size: 18px;
     background-color: #ff4f3b;
     color: #fff;
    width: 100%;
@@ -340,7 +347,7 @@ padding: 10px;
 
 .grid-1{
     position: relative;
-    width: 25%;
+    width: 23%;
     margin-left:15px;
 
 }
@@ -387,7 +394,106 @@ display: block;
 }
 
 
-  
+ /* .new-tree{ */
+    /* position: absolute;
+    /* margin-bottom: 500px; */
+ /* }  */
+ 
+ .santa{
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+    height: 100vh;
+ }
+ .santa img{
+    width: 100%;
+    height: 90vh;
+ }
+
+
+ .text-santa{
+    position: absolute;
+    left: 500px;
+    bottom: 390px;
+    /* top: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+
+ .new-gift{
+    font-size: -webkit-calc(20px + 10*(100vw - 320px)/1600);
+    font-size: calc(20px + 10*(100vw - 320px)/1600); 
+    color: #fff;
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: -15px;
+ }
+
+
+ .endofthe{
+    font-size: -webkit-calc(24px + 46*(100vw - 320px)/1600);
+    font-size: calc(24px + 46*(100vw - 320px)/1600);
+    font-weight: 700;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 0;
+    margin-top: 0px;
+ }
+
+
+ .get-extra{
+    font-size: -webkit-calc(18px + 6*(100vw - 320px)/1600);
+    font-size: calc(18px + 6*(100vw - 320px)/1600);
+    color: #fff;
+    font-weight: 600;
+    text-transform: capitalize;
+    letter-spacing: .07em;
+    /* padding-top: 10px; */
+    margin-bottom: -5px;
+    line-height: 1.3;
+ }
+
+
+ .santa-btn{
+    margin-top: calc(20px + 45*(100vw - 320px)/1600);
+    cursor: pointer;
+    padding: 13px 29px;
+    color: #fff;
+    letter-spacing: .05em;
+    border: 2px solid var(--theme-deafult);
+    /* background-size: 540px; */
+    background-repeat: no-repeat;
+    background-color: #ff4f3b;
+    border: 2px solid #ff4f3b;
+    border-radius: 5px;
+    
+ }
+
+
+ .santa-btn:hover{
+    background-color: #ddd;
+    color: black;
+
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
   @media(max-width:768px){
