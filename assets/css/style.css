@@ -479,6 +479,112 @@ display: block;
  }
 
 
+.sanat-animation{
+    width: 343px;
+    height: 455px;
+    position: absolute;
+    top: 290px;
+    left: 40px;
+
+
+}
+
+
+@keyframes sanat-animation {
+    from {    transform: rotate(25deg);
+    }
+    to {    transform: rotate(-25deg);
+    }
+  }
+
+
+
+ .sanat-animation {
+    
+    animation-name: sanat-animation;
+    animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+
+    
+
+}
+.sanat-animation img{
+    width: 100%;
+    height: auto;
+    
+}
+
+
+.send-love{
+
+background-image: url("https://multikart-react.vercel.app/_next/static/images/2-a6a6519583be5d97d541e2bbb85371c4.jpg");
+background-size: cover;
+    background-position: center center;
+    display: block;
+    width: 100%;
+    height: 85vh;
+
+}
+
+
+
+.snow-animation{
+    display: flex;
+    position: relative;
+    justify-content: space-around;
+    padding-left:  50px;
+}
+.snow-ani-1{
+    left: 30px;
+}
+
+.snow-ani-2{
+    right: 30px;
+}
+.snow-ani{
+
+    position: absolute;
+}
+
+@keyframes snow-animation {
+    0%   {top: 0px;}
+    50%  {top: 30px;}
+    100% {top: 0px;}
+  }
+
+
+
+ .snow-ani {
+    
+    animation-name: snow-animation;
+    animation-duration: 4s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;    
+
+}
+
+
+
+.gift-your
+{
+
+    text-align: center;
+    color: #fff;
+    margin-bottom: 180px;
+    margin-top: 20px;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.pine-tree{
+    text-align: center;
+    margin-top: -180px;
+}
+
+
+
+
 
 
 
@@ -690,6 +796,83 @@ display: block;
 
 
 
+.santa img{
+    width: 100%;
+    height: 28vh;
+ }
+
+
+
+ .text-santa{
+    background-color: rgba(188, 177, 177, 0.389);
+    position: absolute;
+    left: 40px;
+    bottom: 600px;
+    width: 70%;
+    /* top: 0px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+ }
+
+
+
+ .santa-btn{
+    margin-bottom: 10px ;
+    cursor: pointer;
+    padding: 4px ;
+    color: #fff;
+    letter-spacing: 2px;
+    
+ }
+
+
+
+ .sanat-animation{
+    width: 150px;
+    height: 30px;
+    position: absolute;
+    top: 160px;
+    left: 20px;
+
+
+}
+
+
+
+
+@keyframes sanat-animation {
+    from {    transform: rotate(15deg);
+    }
+    to {    transform: rotate(-15deg);
+    }
+  }
+
+
+
+ .sanat-animation {
+    
+    animation-name: sanat-animation;
+    animation-duration: 5s;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite; 
+
+    
+
+}
+.sanat-animation img{
+    width: 70px;
+    height: 100px;
+    
+}
+
+
+
+.exculusive-title{
+    margin-top: -490px;
+}
 
 
 
