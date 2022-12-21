@@ -191,888 +191,6 @@ background-color: #fff;
     overflow: hidden;
 }
 .gochoco{
-    overflow: hidden;
-}
-
-.gift-gocho{
-display: flex;
-flex-wrap: wrap;
-box-sizing: border-box;
-margin-top:30px;
-width: 100%;
-overflow: hidden;
-overflow-clip-margin: content-box;
-
-}
-
-
-.gift-box img{
-   width: 100%;
-   padding: 10px;
-   overflow: hidden;
-   overflow-clip-margin: content-box;
-    overflow: clip;
-    vertical-align: middle;
-
-}
-
-.gift-box img:hover{
-transform: scale(1.1);
-overflow: hidden;
-transition: 1s;
-
-}
-.gochoco img:hover{
-transform: scale(1.1);
-transition: 1s;
-}
-
-.gift-box img:hover .chirs-box2{
-    z-index: 100;
-}
-
-.gochoco img:hover  .gochrist{
-    z-index: 100;
-}
-
-
-.gochoco img{
-width: 100%;
-padding: 10px;
-
-}
-
-.chirs-box2{
-    position: absolute;
-    margin: -210px 60px;
-}
-
-.gochrist{
-    position: absolute;
-    margin: -210px 370px;
-    /* text-align: center; */
-    text-align: right;
-
-
-}
-
-
-.chirs-box2, .gochrist{
-    font-size: 18px;
-    color: #fff;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    margin-bottom: 0;
-
-}
-
-.gift-box{
-    font-size: calc(24px + 16*(100vw - 320px)/1600);
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: .1em;
-    margin-bottom: -6px;
-    
-}
-
-
-
-
-.chocolat{
-    font-size: calc(24px + 16*(100vw - 320px)/1600);
-    font-weight: 700;
-    color: #fff;
-    letter-spacing: .1em;
-    margin-bottom: -6px;
-
-}
-
-.special{
-    margin-top: 40px;
-    text-align: center;
-}
-
-.special-off{
-    color: #ff4f3b;
-    font-size: 18px;
-}
-
-.top-col{
-    font-size: 36px;
-    color: #222;
-    text-transform: uppercase;
-    font-weight: 700;
-    line-height: 1;
-    letter-spacing: .02em;
-}
-
-
-.hr-2{
-    height: 0.2rem;
-    max-width: 3.25rem;
-    margin: 1.5rem auto;
-    background-color: #ff4f3b;
-    opacity: 1;
-    color: inherit;
-    border: 0;
-  }
-
-
-  .col-icon{
-    position: absolute;
-    bottom: -15px;
-    text-align: center;
-    font-size: 18px;
-    background-color: #ff4f3b;
-    color: #fff;
-   width: 100%;
-  }
-
-  .col-icon i{
-
-
-    padding: 0 5px;
-  }
-
-
-
-
-
-  .section{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-}
-
-.grid-1{
-    position: relative;
-    width: 23%;
-    margin-left:15px;
-
-}
-
-.outer img, .inner img{
-    width: 100%;
-}
-
-.inner{
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-
-}
-
-
-
-.outer:hover .inner{
-display: block;
-
-}
-
-
-.star-one{
-    margin-top: 10px;
-    text-align: center;
-}
-
-.star-color{
-    color: #ff4f3b;
-    font-size: 15px;
-    
-}
-.name-one-co{
-    font-size: 16px;
-    color: #444;
-    font-weight: 700;
-}
-.price-125{
-    font-size: 18px;
-    color: #ff4f3b;
-    font-weight: 600;
-}
-
-
- /* .new-tree{ */
-    /* position: absolute;
-    /* margin-bottom: 500px; */
- /* }  */
- 
- .santa{
-    position: relative;
-    width: 100%;
-    box-sizing: border-box;
-    height: 100vh;
- }
- .santa img{
-    width: 100%;
-    height: 90vh;
- }
-
-
- .text-santa{
-    position: absolute;
-    left: 500px;
-    bottom: 390px;
-    /* top: 0px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
- }
-
- .new-gift{
-    font-size: -webkit-calc(20px + 10*(100vw - 320px)/1600);
-    font-size: calc(20px + 10*(100vw - 320px)/1600); 
-    color: #fff;
-    text-transform: capitalize;
-    font-weight: 700;
-    margin-bottom: -15px;
- }
-
-
- .endofthe{
-    font-size: -webkit-calc(24px + 46*(100vw - 320px)/1600);
-    font-size: calc(24px + 46*(100vw - 320px)/1600);
-    font-weight: 700;
-    color: #fff;
-    text-transform: capitalize;
-    margin-bottom: 0;
-    margin-top: 0px;
- }
-
-
- .get-extra{
-    font-size: -webkit-calc(18px + 6*(100vw - 320px)/1600);
-    font-size: calc(18px + 6*(100vw - 320px)/1600);
-    color: #fff;
-    font-weight: 600;
-    text-transform: capitalize;
-    letter-spacing: .07em;
-    /* padding-top: 10px; */
-    margin-bottom: -5px;
-    line-height: 1.3;
- }
-
-
- .santa-btn{
-    margin-top: calc(20px + 45*(100vw - 320px)/1600);
-    cursor: pointer;
-    padding: 13px 29px;
-    color: #fff;
-    letter-spacing: .05em;
-    border: 2px solid var(--theme-deafult);
-    /* background-size: 540px; */
-    background-repeat: no-repeat;
-    background-color: #ff4f3b;
-    border: 2px solid #ff4f3b;
-    border-radius: 5px;
-    
- }
-
-
- .santa-btn:hover{
-    background-color: #ddd;
-    color: black;
-
- }
-
-
-.sanat-animation{
-    width: 343px;
-    height: 455px;
-    position: absolute;
-    top: 290px;
-    left: 40px;
-
-
-}
-
-
-@keyframes sanat-animation {
-    from {    transform: rotate(25deg);
-    }
-    to {    transform: rotate(-25deg);
-    }
-  }
-
-
-
- .sanat-animation {
-    
-    animation-name: sanat-animation;
-    animation-duration: 2s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite; 
-
-    
-
-}
-.sanat-animation img{
-    width: 100%;
-    height: auto;
-    
-}
-
-
-.send-love{
-
-background-image: url("https://multikart-react.vercel.app/_next/static/images/2-a6a6519583be5d97d541e2bbb85371c4.jpg");
-background-size: cover;
-    background-position: center center;
-    display: block;
-    width: 100%;
-    height: 85vh;
-
-}
-
-
-
-.snow-animation{
-    display: flex;
-    position: relative;
-    justify-content: space-around;
-    padding-left:  50px;
-}
-.snow-ani-1{
-    left: 30px;
-}
-
-.snow-ani-2{
-    right: 30px;
-}
-.snow-ani{
-
-    position: absolute;
-}
-
-@keyframes snow-animation {
-    0%   {top: 0px;}
-    50%  {top: 30px;}
-    100% {top: 0px;}
-  }
-
-
-
- .snow-ani {
-    
-    animation-name: snow-animation;
-    animation-duration: 4s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite;    
-
-}
-
-
-
-.gift-your
-{
-
-    text-align: center;
-    color: #fff;
-    margin-bottom: 180px;
-    margin-top: 20px;
-    font-size: 32px;
-    font-weight: 700;
-}
-
-.pine-tree{
-    text-align: center;
-    margin-top: -180px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-  @media(max-width:768px){
-    .pre-navbar{
-        display: none;
-    }
-
-    #chirsmas{
-        width: 100%;
-        height: 32vh;
-        background-size: 100% 100%;
-    }
-
-    .dleate{
-        display: none;
-    }
-
- 
-
-
-
-    #menu-pre  {
-        display: block;
-        /* margin-right: 30px; */
-    } 
-
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        top:40px;
-        right: -1px;
-        background-color: #f1f1f1;
-        min-width: 160px;
-        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-        z-index: 1;
-      }
-      .div-icon{
-      display: none;
-    }
-
-    .nav img{
-       margin-left: 0px;
-    }
-
-
-
-
-    .bring{
-        align-items: center;
-        text-align: center;
-        margin-top: 10px;
-        margin-left: 200px;
-        width: 180px;
-        height: 180px;
-        color: #ffffff;
-        background-color:rgb(204,57,58);
-        border-radius: 50%;
-    }
-
-
-    .bring-h{
-        font-size: 17px;
-        padding-top: 22px;
-        font-weight: 500;
-    }
-    
-    .chris-h2{
-        padding-top: 0px;
-        font-weight: 400;
-        font-size: 19px;
-            font-weight: 500;
-            margin-left: 0;
-    
-    }
-    
-    .sale-h3{
-        padding-top: 0;
-        font-size: 20px;
-        font-weight: 700;
-    
-    }
-    
-    .shop-b{
-    background-color: #fff;
-        color: #ff6556;
-        -webkit-transition: all .5s ease;
-        transition: all .5s ease;
-        padding: 5px 12px;
-       border: none;
-       line-height: 20px;
-        text-transform: uppercase;
-        font-size: 14px;
-        font-weight: 700;
-    
-    }
-    
-.upto50{
-   display: none;
-}
-
-
-
-
-
-
-
-.gift-gocho{
-    /* display: flex; */
-    box-sizing: border-box;
-    margin-top:30px;
-    width: 100%;
-    }
-   
-    .gift-box{
-        width: 100%;
-    }
-    .gochoco{
-        width: 100%;
-    }
-    
-    .gift-box img{
-       width: 100%;
-       padding: 10px;
-    
-    }
-    
-    .gochoco img{
-    width: 100%;
-    padding: 10px;
-    
-    }
-    
-    
-
-
-    .chirs-box2{
-        background-color: rgba(0, 0, 0, 0.24);
-        width: 200px;
-        height: 90px;
-        position: absolute;
-        margin: -130px 40px;
-        text-align: center;
-        padding-top:15px ;
-    }
-    
-    .gochrist{
-        background-color: rgba(0, 0, 0, 0.24);
-        width: 200px;
-        height: 90px;
-        position: absolute;
-        margin: -130px 150px;
-        text-align: center;
-        padding-top:15px ;
-    
-
-
-
-  }
-
-
-
-  .grid-1{
-    position: relative;
-    width: 40%;
-    margin-left:15px;
-
-
-
-
-
-}
-
-
-
-
-
-.col-icon{
-    position: absolute;
-    bottom: -15px;
-    text-align: center;
-    font-size: 15px;
-    background-color: #ff4f3b;
-    color: #fff;
-   width: 100%;
-  }
-
-
-
-
-.top-col{
-    font-size: 25px;
-}
-
-
-
-
-.santa img{
-    width: 100%;
-    height: 28vh;
- }
-
-
-
- .text-santa{
-    background-color: rgba(188, 177, 177, 0.389);
-    position: absolute;
-    left: 40px;
-    bottom: 600px;
-    width: 70%;
-    /* top: 0px; */
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
- }
-
-
-
- .santa-btn{
-    margin-bottom: 10px ;
-    cursor: pointer;
-    padding: 4px ;
-    color: #fff;
-    letter-spacing: 2px;
-    
- }
-
-
-
- .sanat-animation{
-    width: 150px;
-    height: 30px;
-    position: absolute;
-    top: 160px;
-    left: 20px;
-
-
-}
-
-
-
-
-@keyframes sanat-animation {
-    from {    transform: rotate(15deg);
-    }
-    to {    transform: rotate(-15deg);
-    }
-  }
-
-
-
- .sanat-animation {
-    
-    animation-name: sanat-animation;
-    animation-duration: 5s;
-    -webkit-animation-iteration-count: infinite;
-    animation-iteration-count: infinite; 
-
-    
-
-}
-.sanat-animation img{
-    width: 70px;
-    height: 100px;
-    
-}
-
-
-
-.exculusive-title{
-    margin-top: -490px;
-}
-
-
-
-
-
-
-
-}
-@import url('https://fonts.googleapis.com/css2?family=Gilda+Display&family=Jost:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Noto+Serif+Georgian:wght@100;200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
-
-
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    box-sizing: border-box;
-     font-family: 'Lato', sans-serif;
-}
-
-#chirsmas{
-  
-    height: 100vh;
-    background-image: url("https://multikart-react.vercel.app/_next/static/images/1-cc5222dcd98b319c33001a4a75c5cab1.jpg");
-    width: 100%;
-    background-size: 100% 100%;
-}
-
-
-.pre-navbar {
-    /* background-color: #F8F8F8; */
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: space-between;
-    color: #fff;
-    font-size: 16px;
-    font-weight: 500;
-    letter-spacing: .8px;
-}
-
-
-.welcome-number {
-    display: flex;
-    align-items: center;
-    margin-left: 60px;
-
-}
-.whishlist-account {
-    display: flex;
-    align-items: center;
-    margin-right: 60px;
-}
-.whishlist-account .whishlist {
-margin-right:20px;
-}
-.whishlist-account .whishlist i {
-    margin-right: 15px;
-}
-.whishlist-account .account i {
-    margin-right: 15px;
-}
-.welcome-number .number {
-margin-left: 15px;
-
-}
-.welcome-number .number i {
-    margin-right: 15px;
-}
-
-.hr-one{
-    margin-top: -1px;
-}
-
-
-
-.nav{
-    display: flex;
-    justify-content: space-around;
-}
-
-.nav i{
-    font-size: 30px;
-    color: #ddd;
-}
-
-/* Dropdown Button */
-.dropbtn {
-    color: white;
-    padding: 1px;
-    font-size: 16px;
-    border: none;
-    background: none;
-  }
-  
-  /* The container <div> - needed to position the dropdown content */
-  /* .dropdown {
-    position: relative;
-    display: inline-block;
-  } */
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f1f1f1;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
-    font-size: 14px;
-    font-weight: 400;
-    font-family: 'Lato', sans-serif;
-    color: black;
-    padding: 7px 16px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  /* Change color of dropdown links on hover */
-  .dropdown-content a:hover {background-color: #ddd;}
-  
-  /* Show the dropdown menu on hover */
-  .dropdown:hover .dropdown-content {display: block;}
-  
-  /* Change the background color of the dropdown button when the dropdown content is shown */
-  /* .dropdown:hover .dropbtn {background-color: #3e8e41;} */
-
-  
-  #menu-pre{
-    display: none;
-  }
-/* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
-.show {display:block;}
-
-.div-icon{
-    margin-left: px;
-}
-.div-icon i{
-    margin: 0 15px;
-    font-size:25px ;
-}
-
-.bring{
-    align-items: center;
-    text-align: center;
-    margin-top: 90px;
-    margin-left: 800px;
-    width: 500px;
-    height: 500px;
-    color: #ffffff;
-    background-color:rgba(204, 57, 57, 0.745);
-    border-radius: 50%;
-}
-.bring-h{
-    font-size: 24px;
-    padding-top: 85px;
-    font-weight: 500;
-}
-
-.chris-h2{
-    font-weight: 400;
-    font-size: 45px;
-        font-weight: 500;
-        margin-left: 0;
-
-}
-
-.sale-h3{
-    font-size: 60px;
-    font-weight: 700;
-
-}
-
-.shop-b{
-background-color: #fff;
-    color: #ff6456;
-    -webkit-transition: all .5s ease;
-    transition: all .5s ease;
-    padding: 10px 29px;
-   border: none;
-   line-height: 20px;
-    text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 700;
-
-}
-
-
-.shop-b:hover{
-    color: black;
-}
-
-.gift-box{
-    overflow: hidden;
-}
-.gochoco{
     overflow: auto;
 }
 
@@ -1629,12 +747,17 @@ justify-content: center;
 
 
 .from-photo-box{
+    position: relative;
     display: flex;
     flex-wrap: wrap;
     width: 100%;
 }
+.from-img{
+    overflow: hidden;
+}
 
 .from-photo{
+    overflow: hidden;
     margin:0 30px;
     margin-left: 60px;
     width: 18%;
@@ -1647,10 +770,20 @@ justify-content: center;
     height: auto;
 }
 
+.form-rotate{
+    position: absolute;
+    /* left: 0; */
+    top:0;
+    opacity:0 ;
 
-.from-photo img:hover{
-    color: #ff4c3b;
-    z-index: 1;
+    width: 18%;
+    height: 156px;
+    background-color: #ff4b3b49;
+}
+
+.from-photo:hover .form-rotate{
+    opacity: 1;
+
 }
 
 .from-photo h4{
@@ -1744,13 +877,48 @@ justify-content: center;
 
 
 .insatgram{
+    position: relative;
     display: flex;
     width: 100%;
+    overflow: hidden;
 }
 
 .insat-photo{
     width: 14.285%;
+    height: 250px;
+    z-index: 0;
+    overflow: hidden;
 }
+
+.insat-photo:hover .insta-rotate{
+    top: 0;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+
+}
+.insta-rotate img{
+    width: 150px;
+    height: 150px;
+    opacity: 0.2;
+    top: 200px;
+}
+
+
+.insta-rotate{
+    position: absolute;
+    top: -250px;
+    width: 14.28%;
+    height: 218px;
+    background-color: #ff4b3b5a;
+    z-index: 100;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
 
 .insat-photo img{
     width: 100%;
@@ -1832,7 +1000,9 @@ justify-content: center;
     color: rgb(249, 248, 248);
     border: none;
 }
-
+.subscri:hover{
+    background-color:rgba(185, 67, 67, 0.555);
+}
 
 .hr-3{
 
@@ -2385,7 +1555,15 @@ justify-content: center;
 }
 
 
+.form-rotate{
+    position: absolute;
+    top:0;
+    opacity:0 ;
 
+    width: 75.3%;
+    height: 160px;
+    background-color: #ff4b3b49;
+}
 
 .from-photo{
     width: 90%;
@@ -2426,6 +1604,38 @@ justify-content: center;
 .insta-ph{
     display: none;
 }
+
+
+.insat-photo:hover .insta-rotate{
+    top: 0;
+    transition: 0.5s;
+    transform: rotate(360deg);
+
+
+}
+.insta-rotate img{
+    width: 50px;
+    height: 129.2px;
+    opacity: 0.2;
+    top: 200px;
+}
+
+
+.insta-rotate{
+    position: absolute;
+    top: -250px;
+    width: 33%;
+    height: auto;
+    background-color: #ff4b3b5a;
+    z-index: 100;
+    overflow: hidden;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+
+
 
 
 .plat-none{
